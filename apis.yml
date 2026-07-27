@@ -1,9 +1,25 @@
 aid: forevr
 name: ForeVR
-description: 'ForeVR is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'ForeVR Games is a consumer virtual-reality game studio that brings classic
+  social bar and backyard games into VR. Its catalog includes ForeVR Bowl, ForeVR Darts,
+  ForeVR Pool, and ForeVR Cornhole, built for multiplayer play across Meta Quest, Steam
+  VR, and PlayStation VR2. The company was surfaced as a portfolio company of bessemer-venture-partners
+  and added to the API Evangelist network. ForeVR is a consumer game publisher with no
+  public developer API, SDK, or documentation program; this profile captures its public
+  identity and domain-security posture rather than an API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/forevr/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: http://static1.squarespace.com/static/5f90a0746f3b5c3e2dbe6ce7/t/6182c4dbbdb3b572a73dfc85/1635384756197/Screen+Shot+2021-10-25+at+10.48.53+AM.png?format=1500w
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Virtual Reality
+- Gaming
+- Entertainment
+- Meta Quest
+- Multiplayer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +44,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/forevr-domain-security.yml
 - type: Website
   url: https://www.forevrgames.com/
+- type: HelpCenter
+  url: https://forevrgames.zendesk.com/hc
+- type: Support
+  url: https://www.forevrgames.com/support
+- type: PrivacyPolicy
+  url: https://www.forevrgames.com/privacy
+- type: TermsOfService
+  url: https://www.forevrgames.com/tos
+- type: GitHubOrganization
+  url: https://github.com/Forevr-Games
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
