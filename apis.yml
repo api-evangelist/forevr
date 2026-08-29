@@ -8,6 +8,17 @@ description: 'ForeVR Games is a consumer virtual-reality game studio that brings
   public developer API, SDK, or documentation program; this profile captures its public
   identity and domain-security posture rather than an API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/forevr/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
